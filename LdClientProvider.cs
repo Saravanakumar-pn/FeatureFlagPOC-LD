@@ -17,7 +17,7 @@ namespace FeatureFlagPOC_LD
                 {
                     // Initialize the LaunchDarkly client with your SDK key.
                     // Use a sensible timeout for initialization.
-                    _client = new LdClient("sdk-b01ac7c2-d3ba-46b3-b8e1-da64acafd301");
+                    _client = new LdClient("enter your sdk key");
                 }
                 return _client;
             }
